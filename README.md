@@ -1,8 +1,8 @@
-# Find-Your-Fit
+# Find-Your-Fit - MapHacks 2021
 
 Have you ever wanted to work out, but were afraid to do it alone? If so, try our web app to find your fit!
 
-Find Your Fit was developed using react.js, sql, and other technologies for MapHacks 2021. It connects a user to others nearby who are also looking for workout buddies.
+Find Your Fit was developed using react.js, MySQL, and other technologies for MapHacks 2021. It connects a user to others nearby who are also looking for workout buddies.
 
 We unfortunately do not have an actual site or server running Find Your Fit. 
 
