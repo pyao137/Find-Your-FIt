@@ -5,7 +5,7 @@ import "./Dashboard.css";
 import Profile from "./Profile";
 import Matches from "./Matches"
 import Swipes from "./Swipes";
-import NotFound from "./404";
+import NotFound from "./Notfound";
 
 class Dashboard extends Component {
   constructor(props) {
