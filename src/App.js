@@ -4,7 +4,7 @@ import Login from "./Login";
 import Dashboard from "./Dashboard";
 import {
   BrowserRouter as Router,
-  Switch,//test
+  Switch,
   Route,
   Redirect
 } from "react-router-dom";
