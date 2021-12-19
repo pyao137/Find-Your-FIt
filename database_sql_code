@@ -1,0 +1,36 @@
+CREATE DATABASE findyourfit;
+
+USE findyourfit;
+
+CREATE TABLE accounts (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    email VARCHAR(255) NOT NULL,
+    personName VARCHAR(255) NOT NULL,
+    img VARCHAR(255) NOT NULL,
+    pass VARCHAR(255) NOT NULL,
+    latitude FLOAT,
+    longitude FLOAT,
+    goal VARCHAR(255),
+    experience VARCHAR(255),
+    gender VARCHAR(255)
+);
+
+CREATE TABLE likes (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    swiper VARCHAR(255) NOT NULL,
+    target VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE seen (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    swiper VARCHAR(255) NOT NULL,
+    target VARCHAR(255) NOT NULL
+);
+
+
+
+CREATE TABLE matches (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    person1 VARCHAR(255) NOT NULL,
+    person2 VARCHAR(255) NOT NULL
+)
