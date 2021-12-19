@@ -11,7 +11,7 @@ app.use(function(req, res, next) {
 });
 
 var mysql = require("mysql")
-
+//port
 var HTTP_PORT = 5000
 
 function getDistanceFromLatLonInKm(lat1,lon1,lat2,lon2) {
