@@ -50,7 +50,6 @@ class Register extends Component {
     let user_experience = this.state.registerParams.user_experience;
     let user_gender = this.state.registerParams.user_gender;
 
-    console.log("hi");
     if (user_id.length !== 0 && user_password.length !== 0 && user_address.length !== 0 && user_city.length !== 0 && user_state.length !== 0) {
       const API_KEY = "AIzaSyCXoX_K7Jrg1jARURwvGIGlz06cRUOqxxA";
       let newAddress = "";
@@ -81,7 +80,6 @@ class Register extends Component {
         let registerParamsNew = { ...this.state.registerParams };
         var user_lat = response.data.results[0].geometry.location.lat;
         var user_lng = response.data.results[0].geometry.location.lng;
-        console.log(response.data.results[0].geometry.location.lat);
         axios.post("http://localhost:5000/app/register", {
           email: user_id,
           pass: user_password,
@@ -94,7 +92,6 @@ class Register extends Component {
           gender: user_gender
       })
       .then((response) => {
-        console.log(response.data.status)
         this.setState({
             isRegistered: true
         });

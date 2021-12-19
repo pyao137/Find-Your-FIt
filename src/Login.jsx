@@ -27,13 +27,11 @@ class Login extends Component {
   login = event => {
     let user_id = this.state.loginParams.user_id;
     let user_password = this.state.loginParams.user_password;
-    console.log("abc")
     axios.post("http://localhost:5000/app/login", {
       email: user_id,
       pass: user_password
     })
     .then((response) => {
-      console.log(response.data.status)
       if (response.data.status === 1){
         localStorage.setItem("token", "T");
         localStorage.setItem("id", response.data.id);

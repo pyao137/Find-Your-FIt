@@ -63,8 +63,6 @@ class Matches extends Component {
   }
 
   render() {
-      console.log(this.state.matches.length);
-      console.log(this.state.matcbes);
     if (this.state.matches.length == 0) {
         return (
             <div>
