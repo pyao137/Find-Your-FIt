@@ -6,4 +6,4 @@ Find Your Fit was developed using react.js, sql, and other technologies for MapH
 
 We unfortunately do not have an actual site or server running Find Your Fit. 
 
-However, if you want to try the code, you can clone this repository and run it locally. To do so, first use npm to download the necessary packages, and also make sure you have SQL installed on your computer. Then, run the SQL code from "database-sql-code" in a locally hosted sql server, and use "npm run startall" to start the webapp. 
+However, if you want to try the code, you can clone this repository and run it locally. To do so, first use "npm install" to download the necessary packages, and also make sure you have SQL installed on your computer. Then, run the SQL code from "database-sql-code" in a locally hosted sql server, and use "npm run startall" to start the webapp. 
