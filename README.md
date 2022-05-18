@@ -8,4 +8,4 @@ We unfortunately do not have an actual site or server running Find Your Fit righ
 
 However, if you want to try the code, you can clone this repository and run it locally. To do so, first use "npm install" to download the necessary packages, and then make sure you have SQL installed on your computer. After that, run the SQL code from "database-sql-code" in a locally hosted server, and use "npm run startall" to start the webapp. 
 
-This project was created for MapHacks 2021. See our DevPost submission here: https://devpost.com/software/find-your-fit 
+This project was created for MapHacks 2021. See our DevPost submission [here!](https://devpost.com/software/find-your-fit)
